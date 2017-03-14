@@ -1,11 +1,11 @@
 <?php
 
 return array(
-    'app' => dirname(__FILE__).'/../App',
-    'controller' => dirname(__FILE__).'/../App/Controller',
-    'views' => dirname(__FILE__).'/../App/Views',
-    'base' => dirname(__FILE__).'/../',
-    'config' => dirname(__FILE__).'/../App'
+    'app' => __DIR__.'/../App',
+    'controller' => __DIR__.'/../App/Controller',
+    'views' => __DIR__.'/../App/Views',
+    'base' => __DIR__.'/../',
+    'config' => __DIR__.'/../App'
 );
 
 ?>

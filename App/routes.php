@@ -7,7 +7,7 @@ $route = new Router();
 * 
 * @var Router
 */
-$route->get( '', 'LandingController@index');
+$route->get( '/', 'LandingController@index');
 
 /**
 * Business Pages

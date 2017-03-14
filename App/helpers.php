@@ -16,6 +16,10 @@ function config( $data )
     return $config;
 }
 
+function dd( $obj ){
+    echo '<pre>'.print_r( $obj, true).'</pre>';
+}
+
 function hurdman_query_escape($value) {
 
     if (get_magic_quotes_gpc()) {

@@ -11,7 +11,7 @@ $uri = array_filter( $uri );
 echo '<pre>'.print_r( $get, true ).'</pre>';
 echo '<pre>'.print_r( $uri, true ).'</pre>';*/
 
-require_once "bootstrap/autoload.php";
+require_once __DIR__."/../bootstrap/autoload.php";
 
-require_once "bootstrap/start.php";
+require_once __DIR__."/../bootstrap/start.php";
 ?>

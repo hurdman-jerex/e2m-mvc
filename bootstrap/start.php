@@ -8,6 +8,8 @@ $app->setRoute( require_once dirname(__FILE__).'/../App/routes.php' );
 
 $response = $app->mapRoute();
 
+dd( $response );
+
 if( isset( $response['error'] ) )
     abort( $response['code'] );
 

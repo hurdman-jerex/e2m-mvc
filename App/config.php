@@ -1,7 +1,7 @@
 <?php
 
 return array(
-    'base_name' => 'm2'
+    'base_name' => ''
 );
   
 ?>

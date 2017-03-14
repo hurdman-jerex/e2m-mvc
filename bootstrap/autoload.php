@@ -6,8 +6,8 @@ function e2m_path( $dir = 'base' )
    return $paths[ $dir ];
 }
 
-require_once dirname( dirname(__FILE__) ).'/library/SplClassLoader.php';
-require_once dirname( dirname(__FILE__) ).'/library/Router.php';
+require __DIR__.'/../library/SplClassLoader.php';
+require __DIR__.'/../library/Router.php';
 
 $controllerClassLoader = new SplClassLoader( "App\\Controller", e2m_path( 'controller' ) );
 $controllerClassLoader->register();
